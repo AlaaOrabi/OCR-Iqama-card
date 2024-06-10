@@ -1,0 +1,11 @@
+## Requirements
+
+- Python 3.x
+- Tesseract OCR
+- Required Python libraries (listed in requirements.txt)
+
+# Install Tesseract, including Arabic language data
+!sudo apt install tesseract-ocr tesseract-ocr-ara
+
+# Install Python libraries
+!pip install pytesseract Pillow pandas openpyxl
